@@ -1,0 +1,60 @@
+body{
+    padding: 10px;
+    background-image: url('/assets/logo.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container-fluid{
+    padding-top: 1%;
+    background-color: white;
+    opacity: .9;
+}
+
+#carousel{
+    opacity: 1;
+    padding-bottom: 40px;
+}
+.anclas {
+    display: none;
+}
+
+.menu-izq {
+    display: initial;
+}
+
+.menu-arriba{
+    display: none;
+}
+
+@media only screen and (max-width: 992px) {
+    .menu-izq {
+      display: none;
+      background-color: lightblue;
+    }
+    .menu-arriba {
+        display: initial;
+    }
+
+    .anclas {
+        display: initial;
+    }
+  }
+#active{
+    background-color: rgb(214, 15, 15);
+    color: white;
+}
+a li{
+    color: rgb(83, 80, 80);
+}
+a li:hover{
+    color: white;
+    background-color:rgb(223, 55, 55) ;
+}
+.table{
+    text-align: center;
+}
+#sorteo,#div-himno{
+    text-align: center;
+}
+
