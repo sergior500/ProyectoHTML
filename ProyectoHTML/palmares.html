@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Palmarés</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="assets/sevilla-logo-escudo.png"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+
+    <div class="jumbotron">
+        <div class="text-center">
+            <h1>Palmarés</h1>
+            <img src="/assets/sevillaescudo.png" class="img-fluid" alt="Responsive image" width="5%" height="">
+        </div>
+        
+        <div class="dropdown menu-arriba">
+            <button class="btn btn-secondary dropdown-toggle"
+                    type="button" id="dropdownMenu1" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+              MENU
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenu1">
+              <a class="dropdown-item " href="index.html">Inicio</a>
+              <a class="dropdown-item active" href="palmares.html">Palmarés</a>
+              <a class="dropdown-item " href="himno.html">Himno</a>
+              <a class="dropdown-item " href="galeria.html">Galeria</a>
+              <a class="dropdown-item " href="contacto.html">Contacto</a>
+            </div>
+          </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="container col-lg-2 menu-izq">
+                <ul class="list-group">
+                    <a href="index.html"><li class="list-group-item" >Inicio</li></a>
+                    <a href="palmares.html"><li class="list-group-item active" id="active">Palmarés</li></a>
+                    <a href="himno.html"><li class="list-group-item">Himno</li></a>
+                    <a href="galeria.html"><li class="list-group-item">Galeria</li></a>
+                    <a href="contacto.html"><li class="list-group-item">Contacto</li></a>
+                  </ul>
+            </div>
+            <div class="container col-sm-12 col-md-12 col-lg-10">
+                <table class="table">
+                  <thead class="thead-dark">
+                    <tr>
+                      <th>Cantidad</th>
+                      <th>Copa</th>
+                      <th>Nombre</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row" id="cantidad">6</th>
+                      <td><img src="/assets/copas/uefa.png" class="img-fluid" alt="Responsive image"></td>
+                      <td>UEFA Europa League</td>
+                    </tr>
+                    <tr>
+                      <th scope="row" id="cantidad">5</th>
+                      <td><img src="/assets/copas/rey.png" class="img-fluid" alt="Responsive image"></td>
+                      <td>Copa de España</td>
+                    </tr>
+                    <tr>
+                      <th scope="row" id="cantidad">1</th>
+                      <td><img src="/assets/copas/supercopa.png" class="img-fluid" alt="Responsive image"></td>
+                      <td>Supercopa de Europa</td>
+                    </tr>
+                    <tr>
+                      <th scope="row" id="cantidad">1</th>
+                      <td><img src="/assets/copas/esania.png" class="img-fluid" alt="Responsive image"></td>
+                      <td>Supercopa de España</td>
+                    </tr>
+                    <tr>
+                      <th scope="row" id="cantidad">1</th>
+                      <td><img src="/assets/copas/campeonatodeliga.png" class="img-fluid" alt="Responsive image"></td>
+                      <td>Campeonato de Liga</td>
+                    </tr>
+                    <tr>
+                      <th scope="row" id="cantidad">18</th>
+                      <td><img src="/assets/copas/andalucia.png" class="img-fluid" alt="Responsive image"></td>
+                      <td>Copa de Andalucia</td>
+                    </tr>
+                  </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <footer class="mt-auto">
+
+        <div class="jumbotron text-center">
+            <div class="middle">
+                <a class="btn" href="https://www.facebook.com/sevillafc" target="_blank">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+                <a class="btn" href="https://twitter.com/SevillaFC" target="_blank">
+                  <i class="fab fa-twitter"></i>
+                </a> 
+                <a class="btn" href="https://www.instagram.com/sevillafc/" target="_blank">
+                  <i class="fab fa-instagram"></i>
+                </a>
+                <a class="btn" href="https://www.youtube.com/c/SevillaFC" target="_blank">
+                  <i class="fab fa-youtube"></i>
+                </a>
+              </div>
+                  <p>Copyright © 2022 · Fan Made SFC by Sergio Romero</p>
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
